@@ -1,0 +1,64 @@
+.Main_Form {
+    margin:auto;font-family:sans-serif; 
+    padding:40px;text-align:center;
+    width:40%;border:5px solid gold;
+    border-radius:25px;box-shadow:10px 10px 10px gray;
+    background-color:rgb(33, 206, 206);
+}
+
+.Main_Form label {
+    font-weight:bold;
+}
+
+.Main_Form label:hover {
+    font-style:oblique;
+}
+
+.Main_Form 
+input[type="text"] , 
+    input[type="password"] , 
+        input[type="email"] {
+    width:250px;
+    height:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.Main_Form 
+input[type="text"]:focus , 
+    input[type="password"]:focus , 
+        input[type="email"]:focus {
+    background-color:cyan;
+}
+
+.Main_Form
+input[type="submit"] {
+    font-weight:bold;
+    background-color:none;
+    font-family:monospace;
+    color:lime;
+    width:100px;
+    height:30px;
+}
+
+.Main_Form input[type="submit"]:hover {
+    background-color:lime;
+    color:white;
+    border:none;
+}
+
+.Main_Form
+input[type="reset"] {
+    font-weight:bold;
+    font-family:monospace;
+    background-color:none;
+    color:red;
+    width:100px;
+    height:30px;
+}
+
+.Main_Form input[type="reset"]:hover {
+    background-color:red;
+    color:white;
+    border:none;
+}
